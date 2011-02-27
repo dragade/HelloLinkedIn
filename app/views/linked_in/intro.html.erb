@@ -1,2 +1,8 @@
-<h1>LinkedIn#intro</h1>
-<p>Find me in app/views/linked_in/intro.html.erb</p>
+<p>
+  This is a simple demo webapp to show how to use the linkedin APIs.
+</p>
+
+<ol>
+<li><%= link_to "profile call using linkedin gem", {:controller => "linked_in", :action => "profile"}, :method => :get %> <br/></li>
+<li><%= link_to "REST api call", {:controller => "linked_in", :action => "apicall"}, :method => :get %> <br/></li>
+</ol>

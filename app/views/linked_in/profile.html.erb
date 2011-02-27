@@ -1,2 +1,5 @@
-<h1>LinkedIn#profile</h1>
-<p>Find me in app/views/linked_in/profile.html.erb</p>
+<h1>Your profile fetched with the linkedin gem</h1>
+
+<%= image_tag @profile.picture_url %>
+<%= @profile.first_name %> <%= @profile.last_name %><br/>
+<%= @profile.headline %>

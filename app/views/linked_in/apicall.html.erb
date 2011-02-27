@@ -1,2 +1,14 @@
-<h1>LinkedIn#apicall</h1>
-<p>Find me in app/views/linked_in/apicall.html.erb</p>
+<h1>LinkedIn REST API Demo</h1>
+<p>REST call to <%= @rest_url %></p>
+<p><ol>
+    <% @results.each do |r| %>
+        <li><%=r%></li>
+    <% end %>
+    </ol>
+</p>
+<hr/>
+<p>JSON RESULT:
+    <pre>
+        <%= @pretty_data %>
+    </pre>
+</p>
