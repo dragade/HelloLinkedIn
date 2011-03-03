@@ -1,8 +1,8 @@
 class LinkedInController < ApplicationController
 
   # TODO: Go to https://www.linkedin.com/secure/developer, request a developer key and fill it in here!
-  CONSUMER_KEY = "ZfiMBi8G1aTieO5UwOpU-VpWcS-V-RHho8bYBB8nZx4FbbF6mTJqx1flIuojrasP"
-  CONSUMER_SECRET = "NlgYC-sKZcqYzCE4V3ujUC06KbMLpwCPAwUsrNGpIZ3rqLI4UCsmDPxzx0eJ7Nfp"
+  CONSUMER_KEY = ""
+  CONSUMER_SECRET = ""
 
   def authenticate
 
